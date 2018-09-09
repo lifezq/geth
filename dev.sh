@@ -106,6 +106,8 @@ null
 
 # show block number
 > eth.blockNumber
+886
+
 # get latest block, params can be number/block hash
 > eth.getBlock("latest")
 {
@@ -130,4 +132,4 @@ null
   transactionsRoot: "0x2a09bbd9bb5a7def594c6550a68684eaa1abb05524afb099070a9f931cb2d472",
   uncles: []
 }
-886
+
