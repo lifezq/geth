@@ -133,3 +133,32 @@ null
   uncles: []
 }
 
+# node management
+# node info
+> admin.nodeInfo
+{
+  enode: "enode://27db3b3889755bda14c470749308d3d1eabc3131cb109cb2e00321ab476fc1c128f5c1467bd66e6cfbac406ffec129323bc24c4d3ab5bc849ec40a1e2ef806df@[::]:30303?discport=0",
+  id: "27db3b3889755bda14c470749308d3d1eabc3131cb109cb2e00321ab476fc1c128f5c1467bd66e6cfbac406ffec129323bc24c4d3ab5bc849ec40a1e2ef806df",
+  ip: "::",
+  listenAddr: "[::]:30303",
+  name: "Geth/v1.8.15-stable-89451f7c/linux-amd64/go1.10.4",
+  ports: {
+    discovery: 0,
+    listener: 30303
+  },
+  protocols: {
+    eth: {
+      config: {
+        chainId: 15,
+        eip150Hash: "0x0000000000000000000000000000000000000000000000000000000000000000",
+        eip155Block: 0,
+        eip158Block: 0,
+        homesteadBlock: 0
+      },
+      difficulty: 143898729,
+      genesis: "0x5887dbbb7e7e4358e0a36f8b8482be7ed358bc20af22f0e584991192a8790710",
+      head: "0x7f50d87f704f4c69e365453dee37e6b6cf1f578bcdaaf9ee310c9ef8e7a042f2",
+      network: 1981
+    }
+  }
+}
